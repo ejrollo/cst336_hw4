@@ -1,0 +1,69 @@
+body {
+    background-color:BlanchedAlmond;
+    color:black;
+}
+
+header, main, nav, footer {
+    text-align: center;
+}
+
+header {
+    text-shadow: 2px 2px red;
+}
+
+
+nav a {    /* links within "nav" container */
+    padding:15px;
+    padding-bottom:4px;
+    font-size: 1.8em;
+    text-decoration: none;    /* removes underline */
+    color: black;            
+}
+
+
+nav a:hover { /* pseudo class */
+    border-bottom: 8px solid green;
+    font-size: 2em;
+    transition: 0.5s;    /* transition effect */
+}
+
+#content {
+    background-color: antiquewhite;
+    width: 800px;
+    border: 10px solid darkred;
+    padding: 20px;
+    margin: 5px;
+    font-size: 1.5em;
+}
+
+.highlighted {
+    border-bottom:4px solid darkred;
+    font-size: 2em;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+main figure {
+    font-size: 0.8em;
+}
+
+main div {
+    text-align: left;
+}
+
+footer {
+    font-size: 0.8em;
+    color:black;
+    opacity: 0.5;
+}
+ 
+ h1 {
+     font-family: 'Robotico';
+     font-size: 4em;
+     margin-bottom: 0px;
+ }
+ 
+ 
